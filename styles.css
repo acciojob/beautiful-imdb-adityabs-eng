@@ -1,2 +1,32 @@
 
 /* Your CSS Code here. */
+.imdb{
+	position:relative;
+	top:20%;
+}
+div{
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	background-image:linear-gradient(to right,black ,darkgreen);
+	border-radius:10px;
+	
+}
+.moviePic{
+	height:50%;
+	width:50%;
+	opacity:99%;
+	box-shadow:-2px 5px 5px 10px darkgreen;
+	outline:5px solid black;
+	margin:25px;
+
+}
+	
+.movieDetail{
+	color:white;
+	position:absolute;
+	top:50%;
+	width:50%px;
+	text-align:center;
+	font-size:20px;
+}
